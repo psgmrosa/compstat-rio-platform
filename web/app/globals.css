@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  background-color: theme("colors.bg");
+  color: theme("colors.rio.ink");
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "cv11", "ss01", "ss03";
+}
+
+/* Tabular numbers para KPIs alinharem com vírgula. */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Leaflet: o CSS oficial vem por <link>; aqui só ajustamos contornos. */
+.leaflet-container {
+  font-family: inherit;
+  background: theme("colors.rio.50");
+}
