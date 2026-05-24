@@ -193,8 +193,15 @@ cp .env.example .env
 # 4. Gerar para todas as 8 áreas
 .venv/bin/python -m scripts.generate_relint --all --format pdf
 
-# 5. Subir a UI (homepage com agentes + detalhe por área)
+# 5. Subir a UI Streamlit (homepage com agentes + detalhe por área)
 .venv/bin/streamlit run streamlit_app.py
+
+# 5b. (Alternativa) Subir o stack Next.js + FastAPI — design system Rio
+#    Terminal 1: backend
+.venv/bin/uvicorn backend.main:app --reload --port 8000
+#    Terminal 2: frontend
+cd web && npm install && npm run dev
+#    → http://localhost:3000
 ```
 
 Modo offline (sem Claude, só analytics — útil pra desenvolver):
@@ -202,6 +209,17 @@ Modo offline (sem Claude, só analytics — útil pra desenvolver):
 ```bash
 .venv/bin/python -m scripts.generate_relint --area "Jardim de Alah" --offline
 ```
+
+### Dois frontends, mesma engine
+
+| Stack | Quando usar | URL dev |
+|---|---|---|
+| **Streamlit** (`streamlit_app.py`) | Iteração rápida em Python; UI completa com 5 abas, mapa Folium, geração de relatório embutida. | `http://localhost:8501` |
+| **Next.js + FastAPI** (`web/` + `backend/`) | Visão Geral com design system institucional (paleta Rio, tipografia Inter, gráficos Recharts interativos, mapa Leaflet). Pronto para apresentação. | `http://localhost:3000` (front) · `http://localhost:8000/docs` (API) |
+
+Ambos consomem os mesmos analytics (`relint_gen/analytics/*`).
+O backend FastAPI expõe `/api/visao-geral` com cache em memória — primeira chamada
+cruza ~50k pontos, próximas são instantâneas.
 
 ### Formatos de saída
 
