@@ -10,3 +10,5 @@ dist/
 .ipynb_checkpoints/
 output/
 .context/cache/
+.venv
+.context/

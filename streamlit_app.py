@@ -513,7 +513,7 @@ def render_detalhe(area_sel: str, usar_llm: bool) -> None:
             st.dataframe(agg, hide_index=True, use_container_width=True)
 
     with aba5:
-        st.markdown("### Gerar Relatório Analítico de Área (.docx)")
+        st.markdown("### Gerar Relatório Analítico de Área")
         st.caption(
             "Os números (indicadores, ranking, heatmap) saem dos analytics. "
             "O Claude sintetiza a dinâmica criminal, responde as 4 perguntas "
@@ -521,8 +521,20 @@ def render_detalhe(area_sel: str, usar_llm: bool) -> None:
             "do Briefing CompStat."
         )
 
-        if st.button("⚡ Gerar relatório", type="primary",
-                     use_container_width=True):
+        col_fmt, col_btn = st.columns([1, 2])
+        formato = col_fmt.selectbox(
+            "Formato",
+            ["PDF (recomendado)", "DOCX (editável)", "Ambos"],
+            index=0,
+        )
+        formato_param = {
+            "PDF (recomendado)": "pdf",
+            "DOCX (editável)": "docx",
+            "Ambos": "ambos",
+        }[formato]
+
+        if col_btn.button("⚡ Gerar relatório", type="primary",
+                          use_container_width=True):
             from relint_gen import pipeline
 
             status = st.empty()
@@ -535,21 +547,37 @@ def render_detalhe(area_sel: str, usar_llm: bool) -> None:
                     out = pipeline.gerar_relatorio(
                         area_sel, output_dir=Path("output"),
                         usar_llm=usar_llm, salvar_debug=True,
+                        formato=formato_param,
                     )
                     elapsed = time.perf_counter() - t0
                 status.success(f"✓ Relatório gerado em {elapsed:.1f}s · {out.name}")
 
+                # Botão principal (formato escolhido)
+                mime_map = {
+                    ".pdf": "application/pdf",
+                    ".docx": ("application/vnd.openxmlformats-"
+                              "officedocument.wordprocessingml.document"),
+                }
                 with open(out, "rb") as fp:
                     st.download_button(
-                        "📥 Baixar relatório (.docx)",
+                        f"📥 Baixar {out.suffix.upper()[1:]} ({out.name})",
                         data=fp.read(),
                         file_name=out.name,
-                        mime=(
-                            "application/vnd.openxmlformats-officedocument."
-                            "wordprocessingml.document"
-                        ),
+                        mime=mime_map.get(out.suffix, "application/octet-stream"),
                         use_container_width=True,
                     )
+                # Se for "ambos", oferece também o outro formato
+                if formato_param == "ambos":
+                    docx_path = out.with_suffix(".docx")
+                    if docx_path.exists():
+                        with open(docx_path, "rb") as fp:
+                            st.download_button(
+                                f"📥 Baixar DOCX ({docx_path.name})",
+                                data=fp.read(),
+                                file_name=docx_path.name,
+                                mime=mime_map[".docx"],
+                                use_container_width=True,
+                            )
             except Exception as exc:
                 status.error(f"Erro: {exc}")
 

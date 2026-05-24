@@ -40,7 +40,11 @@ def main() -> int:
     )
     parser.add_argument(
         "--debug", action="store_true",
-        help="Salva o payload JSON do Claude ao lado do .docx.",
+        help="Salva o payload JSON do Claude ao lado do relatório.",
+    )
+    parser.add_argument(
+        "--format", choices=["pdf", "docx", "ambos"], default="pdf",
+        help="Formato de saída (default: pdf).",
     )
     args = parser.parse_args()
 
@@ -56,6 +60,7 @@ def main() -> int:
                 out = pipeline.gerar_relatorio(
                     a, output_dir=args.out_dir,
                     usar_llm=not args.offline, salvar_debug=args.debug,
+                    formato=args.format,
                 )
                 print(f"✓ {a} → {out}")
                 ok.append(a)
@@ -71,6 +76,7 @@ def main() -> int:
     out = pipeline.gerar_relatorio(
         args.area, output_dir=args.out_dir,
         usar_llm=not args.offline, salvar_debug=args.debug,
+        formato=args.format,
     )
     print(f"✓ Relatório gerado: {out}")
     return 0

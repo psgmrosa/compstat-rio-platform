@@ -19,9 +19,10 @@ import json
 from dataclasses import asdict
 from pathlib import Path
 
-from . import config, filters, llm, prompts, template
+from . import config, filters, llm, pdf_renderer, prompts, template
 from .analytics import bingo as bingo_mod
 from .analytics import indicadores as ind_mod
+from .analytics import map_render
 from .analytics import optimizer as opt_mod
 from .analytics import temporal as temp_mod
 
@@ -32,8 +33,14 @@ def gerar_relatorio(
     output_dir: Path | None = None,
     usar_llm: bool = True,
     salvar_debug: bool = False,
+    formato: str = "pdf",
 ) -> Path:
-    """Gera o Relatório Analítico para uma área FM e devolve o path do .docx."""
+    """Gera o Relatório Analítico para uma área FM.
+
+    Args:
+        formato: "pdf" (default), "docx", ou "ambos". Retorna o path do
+            arquivo principal (PDF por padrão).
+    """
     output_dir = Path(output_dir or config.OUTPUT_DIR)
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -49,11 +56,23 @@ def gerar_relatorio(
     plano_inicial = bingo_mod.bingos_para_plano_acao(bingos)
     alocacao = opt_mod.sugestao_para_area(ctx.nome)
 
-    # PNG do heatmap (embedado no .docx)
     safe_name = "".join(c if c.isalnum() else "_" for c in ctx.nome)[:80]
+
+    # PNG do heatmap temporal (embedado no .docx/.pdf)
     heatmap_png = output_dir / f"heatmap_{safe_name}.png"
     temp_mod.heatmap_png(temporal.heatmap, str(heatmap_png),
                          titulo=f"Ocorrências — {ctx.nome}")
+
+    # PNG do mapa da área (cover do PDF)
+    mapa_png = output_dir / f"mapa_{safe_name}.png"
+    try:
+        map_render.render_area_map_png(
+            ctx.poligono, ctx.ocorrencias, ctx.cameras, bingos,
+            mapa_png, titulo=ctx.nome,
+            subtitulo=f"{indic.total:,} ocorrências · {len(bingos)} trechos críticos".replace(",", "."),
+        )
+    except Exception:
+        mapa_png = None
 
     # 6-7. Claude
     if usar_llm:
@@ -95,11 +114,23 @@ def gerar_relatorio(
         heatmap_image=str(heatmap_png) if heatmap_png.exists() else None,
         cameras_total=len(ctx.cameras),
     )
+    # injeta path do mapa do cover nos metadados para o PDF
+    if mapa_png and Path(mapa_png).exists():
+        rel.metadados["mapa_png"] = str(mapa_png)
 
-    # 9. Render
-    out_path = output_dir / f"RelatorioAnalitico_{safe_name}.docx"
-    template.render_relatorio(rel, out_path)
-    return out_path
+    # 9. Render — PDF e/ou DOCX
+    pdf_path = output_dir / f"RelatorioAnalitico_{safe_name}.pdf"
+    docx_path = output_dir / f"RelatorioAnalitico_{safe_name}.docx"
+
+    f = formato.lower()
+    if f in ("pdf", "ambos"):
+        pdf_renderer.render_relatorio_pdf(rel, pdf_path)
+    if f in ("docx", "ambos"):
+        template.render_relatorio(rel, docx_path)
+
+    if f == "docx":
+        return docx_path
+    return pdf_path
 
 
 def _payload_offline(ctx, indic, temporal, bingos, alocacao, plano) -> dict:
