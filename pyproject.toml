@@ -1,0 +1,27 @@
+[project]
+name = "relint-gen"
+version = "0.1.0"
+description = "Gerador automático de Relatórios de Inteligência (RELINT) — CompStat Rio"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.40.0",
+    "pandas>=2.2.0",
+    "geopandas>=1.0.0",
+    "shapely>=2.0.0",
+    "pyproj>=3.6.0",
+    "python-docx>=1.1.0",
+    "openpyxl>=3.1.0",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.66.0",
+]
+
+[project.scripts]
+relint-extract-template = "scripts.extract_template:main"
+relint-generate = "scripts.generate_relint:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["relint_gen"]

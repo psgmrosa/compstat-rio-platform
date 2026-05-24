@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+output/
+.context/cache/

@@ -1,0 +1,116 @@
+{
+  "area_nome": "ESTAÇÕES SÃO FRANCISCO XAVIER – AFONSO PENA",
+  "intro": "A presente análise territorial visa identificar fatores urbanos, dinâmica criminal e vulnerabilidades relacionadas à sensação de segurança da população, considerando áreas de grande circulação de pedestres e integração com o transporte público. Foram observados fatores associados à incidência de furtos e roubos contra transeuntes, especialmente subtração de aparelhos celulares, além de elementos urbanos que favorecem delitos oportunistas.",
+  "subareas": [
+    {
+      "nome": "ESTAÇÃO SÃO FRANCISCO XAVIER",
+      "descricao": "A região da Estação São Francisco Xavier apresenta intensa circulação estudantil e comercial, principalmente em horários de entrada e saída de instituições de ensino. Foram observados pontos de retenção de pedestres próximos às escadas, travessias e pontos de ônibus. O perfil predominante de estudantes em deslocamento com equipamentos de valor — celulares, tablets e notebooks — constitui alvo frequente de furtos oportunistas nos horários de pico escolar. Bancas e comércio informal nos acessos à estação obstruem a visibilidade e dificultam o patrulhamento.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "catracas e acessos com gargalos nos horários de entrada e saída escolar"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "corredores de acesso cobertos com iluminação insuficiente à noite"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "bancas e comércio informal obstruindo visibilidade nos acessos"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "motociclistas utilizando calçadas adjacentes como rota de fuga"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "múltiplas saídas para a Rua São Francisco Xavier e vias adjacentes."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "ESTAÇÃO AFONSO PENA",
+      "descricao": "O entorno da Estação Afonso Pena apresenta retenção de fluxo em travessias e áreas de ônibus, favorecendo furtos rápidos de aparelhos celulares. A praça adjacente tem histórico de presença de população em situação de rua (PSR) e uso de entorpecentes, com abordagens agressivas a pedestres e comerciantes do entorno. A vegetação da praça reduz a eficácia da iluminação pública no período noturno, criando zonas de baixa visibilidade próximas ao ponto de ônibus de alta movimentação.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "ponto de ônibus de alta movimentação no entorno da praça"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "vegetação da praça reduzindo eficácia da iluminação pública à noite"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "bancos e vegetação da praça utilizados como pontos de permanência"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "vias adjacentes utilizadas como rotas de fuga"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "saídas para a Rua São Francisco Xavier e vias do bairro."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "VIAS SECUNDÁRIAS",
+      "descricao": "As vias secundárias da Tijuca permitem dispersão rápida após delitos praticados contra pedestres em deslocamento. Trechos com calçadas estreitas forçam a proximidade entre pedestres, facilitando abordagens discretas. A iluminação precária em determinadas ruas residenciais no período noturno cria corredores de risco entre as estações e os destinos finais dos pedestres. A complexa malha viária da Tijuca, com diversas ruas perpendiculares e becos, dificulta o rastreamento após a dispersão.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "fluxo constante de pedestres nas vias de ligação entre as estações"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "iluminação precária em vias secundárias residenciais no período noturno"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "veículos estacionados em calçadas reduzindo visibilidade e espaço"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "vias secundárias usadas como corredores de fuga em motocicleta"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "malha viária complexa da Tijuca permitindo fuga em múltiplas direções."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    }
+  ],
+  "conclusao": {
+    "sintese": "A área analisada apresenta fatores urbanos e territoriais que favorecem delitos oportunistas, especialmente furtos e roubos de aparelhos celulares contra pedestres. A intensa circulação estudantil nos acessos à Estação São Francisco Xavier, o abandono da Praça Afonso Pena e a iluminação precária nas vias secundárias da Tijuca configuram vulnerabilidades distintas que se complementam ao longo do mesmo eixo. Dados do CompStat Rio indicam que metade dos crimes de roubos e furtos da cidade concentra-se em apenas 5% do território, sendo este eixo parte do mapeamento crítico da Zona Norte. Observa-se necessidade de:\nOs delitos tendem a ocorrer principalmente nos horários de entrada e saída das instituições de ensino e no período noturno na Praça Afonso Pena, aproveitando a reduzida vigilância natural nestes períodos.",
+    "recomendacoes": [
+      {
+        "categoria": "reforço do patrulhamento preventivo",
+        "descricao": "com missões dirigidas por horário e local, priorizando os acessos à estação no horário escolar e a Praça Afonso Pena no período noturno"
+      },
+      {
+        "categoria": "melhoria da iluminação pública",
+        "descricao": "especialmente na Praça Afonso Pena e nas vias secundárias residenciais com iluminação precária"
+      },
+      {
+        "categoria": "poda de vegetação",
+        "descricao": "redução das zonas de sombra na Praça Afonso Pena que comprometem a eficácia da iluminação"
+      },
+      {
+        "categoria": "fiscalização de obstáculos urbanos",
+        "descricao": "regularização de bancas e comércio informal nos acessos à estação"
+      },
+      {
+        "categoria": "ações integradas de ordenamento urbano",
+        "descricao": "coordenação entre Força Municipal, PMERJ e MetrôRio para gestão dos fluxos de pico."
+      }
+    ],
+    "timing": ""
+  },
+  "_meta": {
+    "source": "Cópia de RI_016_2026_Estacoes_SFX_Afonso_Pena.docx"
+  }
+}

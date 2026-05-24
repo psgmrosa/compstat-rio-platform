@@ -1,0 +1,116 @@
+{
+  "area_nome": "CAMPO GRANDE – ESTAÇÃO – CALÇADÃO",
+  "intro": "A presente análise territorial visa identificar fatores urbanos, dinâmica criminal e vulnerabilidades relacionadas à sensação de segurança da população, considerando áreas de grande circulação de pedestres e integração com o transporte público. Foram observados fatores associados à incidência de furtos e roubos contra transeuntes, especialmente subtração de aparelhos celulares, além de elementos urbanos que favorecem delitos oportunistas.",
+  "subareas": [
+    {
+      "nome": "ESTAÇÃO DE TREM DE CAMPO GRANDE",
+      "descricao": "A Estação de Campo Grande concentra elevado fluxo de passageiros e retenção de pedestres em horários comerciais. Foram observadas áreas de grande aglomeração próximas aos acessos ferroviários. A presença de ambulantes sem licença nos acessos à estação cria ambiente de confusão visual que facilita a ação de furtadores. O entorno imediato apresenta trechos com iluminação insuficiente no período noturno e estruturas que criam pontos cegos fora do alcance do patrulhamento. A proximidade com comunidades sob influência de organizações criminosas (ORCRIM) adiciona fator de vulnerabilidade às rotas de dispersão utilizadas após a prática de delitos.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "acessos ferroviários com aglomerações nos horários 06h–09h e 17h–21h"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "trechos cobertos da estação com iluminação insuficiente"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "ambulantes irregulares nos acessos obstruindo visibilidade"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "vias adjacentes com múltiplas rotas de fuga disponíveis"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "acesso direto ao calçadão e vias secundárias do bairro."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "CALÇADÃO COMERCIAL",
+      "descricao": "O Calçadão apresenta intensa atividade comercial, grande concentração de ambulantes e circulação constante de usuários do transporte público. A dinâmica criminal predominante está relacionada a furtos e roubos rápidos contra transeuntes. O comércio sem controle e a concentração de ambulantes irregulares criam ambientes de confusão visual e tumulto que facilitam a ação de furtadores oportunistas sem que a vítima perceba imediatamente. Registrado comércio de aparelhos celulares com valores significativamente abaixo do mercado, sugerindo receptação de produtos subtraídos.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "corredores do calçadão com pedestres em fluxo constante durante o horário comercial"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "ambulantes e estruturas irregulares criando pontos cegos para a fiscalização"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "barracas e mercadorias obstruindo calçadas e reduzindo espaço de circulação"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "bicicletas circulando no calçadão dificultam vigilância e facilitam fuga"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "saídas para vias secundárias e acesso à estação ferroviária."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "CORREDORES DE ÔNIBUS E VIAS SECUNDÁRIAS",
+      "descricao": "As vias secundárias próximas à estação favorecem rápida dispersão após a prática criminosa, principalmente utilizando motocicletas e circulação em meio ao fluxo intenso. A malha viária complexa do entorno, com diversas ruas de mão única e becos, cria corredores de fuga de difícil controle pelo patrulhamento convencional. A proximidade com comunidades sob influência de organizações criminosas representa vulnerabilidade geográfica adicional, dificultando a perseguição além do perímetro imediato.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "corredores de ônibus com concentração de usuários nos pontos de parada"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "vias secundárias com iluminação precária no período noturno"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "veículos de carga nas vias secundárias obstruindo a visibilidade"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "motocicletas usadas sistematicamente como meio de fuga pós-delito"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "vias secundárias com acesso direto a comunidades do entorno."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    }
+  ],
+  "conclusao": {
+    "sintese": "A área analisada apresenta fatores urbanos e territoriais que favorecem delitos oportunistas, especialmente furtos e roubos de aparelhos celulares contra pedestres. A concentração de ambulantes irregulares no calçadão e nas imediações da estação ferroviária, aliada à proximidade com comunidades sob influência de organizações criminosas (ORCRIM), configura quadro de vulnerabilidade estrutural que demanda ação coordenada. Observa-se necessidade de:\nOs delitos tendem a ocorrer principalmente durante o horário comercial e no início da noite, aproveitando o intenso fluxo de pedestres no calçadão e nos acessos ferroviários, com maior vulnerabilidade nos momentos de aglomeração nos embarques.",
+    "recomendacoes": [
+      {
+        "categoria": "reforço do patrulhamento preventivo",
+        "descricao": "com missões dirigidas nos acessos ferroviários e no calçadão nos horários de pico comercial"
+      },
+      {
+        "categoria": "melhoria da iluminação pública",
+        "descricao": "especialmente nos trechos cobertos da estação e nas vias secundárias do entorno"
+      },
+      {
+        "categoria": "fiscalização e ordenamento do comércio ambulante",
+        "descricao": "regularização dos ambulantes no calçadão e nos acessos à estação"
+      },
+      {
+        "categoria": "fiscalização de obstáculos urbanos",
+        "descricao": "remoção de veículos de carga obstruindo visibilidade nas vias secundárias"
+      },
+      {
+        "categoria": "ações integradas de ordenamento urbano",
+        "descricao": "coordenação entre Força Municipal, PMERJ, PCERJ e SuperVia."
+      }
+    ],
+    "timing": ""
+  },
+  "_meta": {
+    "source": "Cópia de RI_013_2026_Campo_Grande_Estacao_Calcadao.docx"
+  }
+}

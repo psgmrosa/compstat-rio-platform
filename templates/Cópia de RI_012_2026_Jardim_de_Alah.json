@@ -1,0 +1,116 @@
+{
+  "area_nome": "JARDIM DE ALAH",
+  "intro": "A presente análise territorial visa identificar fatores urbanos, dinâmica criminal e vulnerabilidades relacionadas à sensação de segurança da população, considerando áreas de grande circulação de pedestres e integração com o transporte público. Foram observados fatores associados à incidência de furtos e roubos contra transeuntes, especialmente subtração de aparelhos celulares, além de elementos urbanos que favorecem delitos oportunistas.",
+  "subareas": [
+    {
+      "nome": "PARQUE E ACESSOS INTERNOS",
+      "descricao": "A área do Jardim de Alah apresenta grande circulação de pedestres, ciclistas e frequentadores da orla da Zona Sul. A vegetação densa em determinados pontos reduz a visibilidade noturna e favorece aproximações rápidas. Obras de revitalização iniciadas no final de 2025 instalaram tapumes ao longo de trechos internos do parque, formando nichos pouco visíveis utilizados como esconderijo e rota de fuga por furtadores. A configuração do espaço, com múltiplas entradas e saídas não controladas, dificulta o patrulhamento contínuo e favorece a dispersão imediata após a prática criminosa.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "concentração de pedestres e ciclistas nos acessos à orla"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "vegetação densa e nichos formados por tapumes de obras"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "estruturas de obras criando pontos cegos nos acessos internos"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "ciclovia utilizada como rota de fuga após delitos"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "saídas para Av. Epitácio Pessoa e Av. Delfim Moreira."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "ACESSOS PRAIA – IPANEMA / LEBLON",
+      "descricao": "Os acessos próximos à praia concentram retenção de fluxo em finais de semana e horários de lazer, cenário favorável para furtos e roubos de aparelhos celulares. Frequentadores com atenção voltada ao lazer e turistas com pertences de valor constituem perfil de alta vulnerabilidade. A ausência de barreiras físicas nas saídas para a orla favorece a fuga imediata dos furtadores após a ação. Quiosques e estruturas de apoio de praia criam pontos cegos fora do alcance do patrulhamento convencional.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "alta concentração de frequentadores nos fins de semana e feriados"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "quiosques e estruturas de apoio criando pontos cegos na orla"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "estruturas provisórias de obras limitando circulação de patrulhamento"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "furtadores em bicicleta atuando na ciclofaixa da orla"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "corredor direto para Av. Ataulfo de Paiva via passagens internas."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "PASSAGENS E TRAVESSIAS",
+      "descricao": "As passagens internas e travessias do Jardim de Alah apresentam múltiplas rotas de evasão em direção à Avenida Ataulfo de Paiva e Vieira Souto. A configuração física com passagens estreitas e pouco iluminadas favorece a dispersão rápida após delitos praticados nas vias adjacentes. A ausência de iluminação adequada nestes trechos no período noturno cria corredores de risco que conectam a orla às vias principais do Leblon, sendo utilizados tanto por pedestres quanto por furtadores em fuga.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "fluxo constante de pedestres nas passagens de ligação orla–bairro"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "passagens internas sem iluminação adequada no período noturno"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "largura reduzida das passagens impedindo patrulhamento motorizado"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "bicicletas transitando pelas passagens internas"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "saídas diretas para Av. Ataulfo de Paiva e Vieira Souto."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    }
+  ],
+  "conclusao": {
+    "sintese": "A área analisada apresenta fatores urbanos e territoriais que favorecem delitos oportunistas, especialmente furtos e roubos de aparelhos celulares contra pedestres e turistas. A combinação de vegetação densa, nichos formados pelas obras de revitalização e passagens internas sem iluminação cria um ambiente de vulnerabilidade contínua entre a orla e os bairros de Ipanema e Leblon. Observa-se necessidade de:\nOs delitos tendem a ocorrer principalmente nos fins de semana e feriados, nos horários de maior fluxo de lazer, com pico de vulnerabilidade no período de entardecer e início da noite nas passagens internas.",
+    "recomendacoes": [
+      {
+        "categoria": "reforço do patrulhamento preventivo",
+        "descricao": "com foco nos fins de semana e feriados, períodos de maior concentração de turistas e frequentadores"
+      },
+      {
+        "categoria": "melhoria da iluminação pública",
+        "descricao": "especialmente nas passagens internas e travessias sem iluminação adequada no período noturno"
+      },
+      {
+        "categoria": "poda de vegetação",
+        "descricao": "redução dos pontos de sombra que favorecem aproximações não percebidas pelas vítimas"
+      },
+      {
+        "categoria": "fiscalização das obras de revitalização",
+        "descricao": "monitoramento dos nichos formados por tapumes utilizados como esconderijo"
+      },
+      {
+        "categoria": "ações integradas de ordenamento urbano",
+        "descricao": "coordenação entre Força Municipal, PMERJ e gestão do parque."
+      }
+    ],
+    "timing": ""
+  },
+  "_meta": {
+    "source": "Cópia de RI_012_2026_Jardim_de_Alah.docx"
+  }
+}

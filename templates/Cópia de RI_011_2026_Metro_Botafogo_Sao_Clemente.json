@@ -1,0 +1,116 @@
+{
+  "area_nome": "METRÔ BOTAFOGO – RUA SÃO CLEMENTE – VOLUNTÁRIOS DA PÁTRIA",
+  "intro": "A presente análise territorial visa identificar fatores urbanos, dinâmica criminal e vulnerabilidades relacionadas à sensação de segurança da população, considerando áreas de grande circulação de pedestres e integração com o transporte público. Foram observados fatores associados à incidência de furtos e roubos contra transeuntes, especialmente subtração de aparelhos celulares, além de elementos urbanos que favorecem delitos oportunistas.",
+  "subareas": [
+    {
+      "nome": "ACESSOS AO METRÔ BOTAFOGO",
+      "descricao": "Os acessos do Metrô Botafogo concentram intenso fluxo comercial e corporativo, principalmente nos horários de entrada e saída do trabalho. Foram observados pontos de retenção de pedestres próximos às escadas, travessias e áreas de ônibus. A alta densidade de pessoas em espaço reduzido próximo às catracas favorece furtos rápidos de aparelhos celulares, com furtadores aproveitando o momento de pagamento da tarifa ou uso de dispositivos móveis pelos passageiros. Bancas, comércio informal e grades nas saídas reduzem o espaço disponível nas calçadas e comprometem a visibilidade para fiscalização.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "escadas e catracas com gargalos nos horários 07h–09h e 17h–20h"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "corredores de acesso cobertos com pontos de sombra"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "grades, bancas e comércio informal próximos às saídas"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "motociclistas utilizando calçadas adjacentes como rota de fuga"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "múltiplas saídas do metrô e pontos de ônibus."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "RUA SÃO CLEMENTE",
+      "descricao": "A Rua São Clemente apresenta fluxo constante de estudantes, usuários do transporte público e frequentadores do comércio local. A dinâmica criminal observada indica predominância de furtos e roubos de celulares praticados por indivíduos a pé e motocicletas. Trechos com arborização densa ao longo da via reduzem a eficácia da iluminação pública no período noturno, criando zonas de baixa visibilidade próximas a estabelecimentos comerciais e bares. A largura reduzida das calçadas em determinados trechos força a proximidade entre pedestres, facilitando abordagens discretas.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "aglomerações em frente a estabelecimentos comerciais e bares no período noturno"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "arborização densa reduzindo eficácia da iluminação pública"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "calçadas estreitas e mesas de bares ocupando espaço público"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "roubos de celular executados por duplas em motocicleta"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "ligação rápida com Rua Humaitá e acesso ao Túnel Santa Bárbara."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "RUA VOLUNTÁRIOS DA PÁTRIA",
+      "descricao": "A Rua Voluntários da Pátria apresenta intensa circulação noturna e retenção de fluxo em corredores comerciais. Também foram identificados obstáculos urbanos e trechos com baixa visibilidade que dificultam a vigilância natural. O corredor comercial concentra grande volume de pedestres em horário estendido, com frequentadores de bares e restaurantes constituindo perfil vulnerável no período noturno. A presença de veículos estacionados nas calçadas em determinados trechos reduz o espaço disponível para circulação e compromete a visibilidade para patrulhamento.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "corredores comerciais com concentração de pedestres em horário noturno"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "obstáculos urbanos e marquises comprometendo iluminação em trechos"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "veículos estacionados irregularmente em calçadas"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "motocicletas com placas adulteradas identificadas na via"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "acesso direto ao Metrô Botafogo e conexão com Rua São Clemente."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    }
+  ],
+  "conclusao": {
+    "sintese": "A área analisada apresenta fatores urbanos e territoriais que favorecem delitos oportunistas, especialmente furtos e roubos de aparelhos celulares contra pedestres. Os gargalos nos acessos ao Metrô Botafogo, a iluminação insuficiente na Rua São Clemente e a intensa circulação noturna na Rua Voluntários da Pátria formam um corredor contínuo de vulnerabilidade na Zona Sul. Observa-se necessidade de:\nOs delitos tendem a ocorrer principalmente nos horários de pico do metrô (07h–09h e 17h–20h) e no período noturno dos corredores comerciais, aproveitando a alta concentração de pedestres e a reduzida atenção das vítimas.",
+    "recomendacoes": [
+      {
+        "categoria": "reforço do patrulhamento preventivo",
+        "descricao": "com missões dirigidas nos horários de pico do metrô e no período noturno dos corredores comerciais"
+      },
+      {
+        "categoria": "melhoria da iluminação pública",
+        "descricao": "especialmente nos trechos arborizados da Rua São Clemente e entre estabelecimentos na Rua Voluntários da Pátria"
+      },
+      {
+        "categoria": "poda de vegetação",
+        "descricao": "redução das zonas de sombra causadas pela arborização que comprometem a iluminação noturna"
+      },
+      {
+        "categoria": "fiscalização de obstáculos urbanos",
+        "descricao": "regularização de mesas de bares e veículos estacionados em calçadas"
+      },
+      {
+        "categoria": "ações integradas de ordenamento urbano",
+        "descricao": "coordenação entre Força Municipal, PMERJ e MetrôRio."
+      }
+    ],
+    "timing": ""
+  },
+  "_meta": {
+    "source": "Cópia de RI_011_2026_Metro_Botafogo_Sao_Clemente.docx"
+  }
+}

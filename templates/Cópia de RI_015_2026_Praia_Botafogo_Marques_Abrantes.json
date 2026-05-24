@@ -1,0 +1,116 @@
+{
+  "area_nome": "PRAIA DE BOTAFOGO – MARQUÊS DE ABRANTES",
+  "intro": "A presente análise territorial visa identificar fatores urbanos, dinâmica criminal e vulnerabilidades relacionadas à sensação de segurança da população, considerando áreas de grande circulação de pedestres e integração com o transporte público. Foram observados fatores associados à incidência de furtos e roubos contra transeuntes, especialmente subtração de aparelhos celulares, além de elementos urbanos que favorecem delitos oportunistas.",
+  "subareas": [
+    {
+      "nome": "PRAIA DE BOTAFOGO",
+      "descricao": "A Praia de Botafogo apresenta grande fluxo de pedestres, ciclistas e usuários do transporte público, principalmente em horários de pico e períodos noturnos. A ausência de barreiras físicas na orla favorece fuga imediata dos furtadores após a ação. Frequentadores com atenção voltada ao lazer e turistas com equipamentos de valor constituem perfil de alta vulnerabilidade. A extensão da orla sem pontos de controle viabiliza a dispersão rápida em qualquer direção, dificultando a contenção após a prática do delito.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "alta concentração de frequentadores nos fins de semana e feriados"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "trechos do aterro com iluminação insuficiente no período noturno"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "quiosques e estruturas de apoio criando pontos cegos na orla"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "criminosos em bicicleta operando na ciclofaixa da orla"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "extensão da orla sem barreiras viabiliza fuga imediata."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "RUA MARQUÊS DE ABRANTES",
+      "descricao": "A Rua Marquês de Abrantes concentra intensa circulação comercial e integração com o metrô, favorecendo delitos oportunistas em áreas de retenção de fluxo. O corredor noturno de bares e restaurantes gera aglomerações de frequentadores com atenção reduzida para pertences pessoais. Trechos entre estabelecimentos com iluminação pública insuficiente criam zonas de baixa visibilidade que favorecem abordagens discretas. As calçadas estreitas em frente a determinados estabelecimentos forçam a proximidade entre pedestres.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "aglomerações em frente a bares e restaurantes no período noturno"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "trechos entre estabelecimentos com iluminação pública insuficiente"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "mesas e estruturas de bares ocupando calçadas"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "roubos de celular executados por duplas em motocicleta"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "acesso direto ao Metrô Botafogo e conexão com o Flamengo."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "CORREDORES DE LIGAÇÃO",
+      "descricao": "As conexões rápidas com Flamengo e Botafogo favorecem a dispersão imediata após a prática criminosa. O Parque do Flamengo, com grande extensão territorial e iluminação insuficiente em determinados trechos, cria corredores de risco no período noturno. A presença de população em situação de rua (PSR) nos trechos menos iluminados contribui para a sensação de insegurança e para a criação de pontos de apoio utilizados por grupos envolvidos em delitos. A ciclofaixa ao longo do corredor é utilizada como rota de fuga por furtadores.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "fluxo constante de pedestres entre Botafogo e Flamengo"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "grandes trechos do Parque do Flamengo sem iluminação adequada à noite"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "vegetação densa e estruturas do parque limitando visibilidade"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "ciclofaixa utilizada como rota de fuga após delitos na orla"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "corredor de 1,2 km conectando Botafogo ao Flamengo sem barreiras."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    }
+  ],
+  "conclusao": {
+    "sintese": "A área analisada apresenta fatores urbanos e territoriais que favorecem delitos oportunistas, especialmente furtos e roubos de aparelhos celulares contra pedestres. A extensão da orla sem pontos de controle, a circulação noturna intensa na Rua Marquês de Abrantes e os corredores pouco iluminados do Parque do Flamengo formam um eixo contínuo de vulnerabilidade entre Botafogo e Flamengo. Observa-se necessidade de:\nOs delitos tendem a ocorrer principalmente no período noturno, com pico nos fins de semana e feriados na orla e nos horários de maior circulação nos corredores comerciais noturnos da Rua Marquês de Abrantes.",
+    "recomendacoes": [
+      {
+        "categoria": "reforço do patrulhamento preventivo",
+        "descricao": "com foco no período noturno na orla da Praia de Botafogo e nos corredores do Parque do Flamengo"
+      },
+      {
+        "categoria": "melhoria da iluminação pública",
+        "descricao": "especialmente nos trechos do Parque do Flamengo e entre estabelecimentos na Rua Marquês de Abrantes"
+      },
+      {
+        "categoria": "poda de vegetação",
+        "descricao": "redução das zonas de sombra no Parque do Flamengo que favorecem abordagens noturnas"
+      },
+      {
+        "categoria": "ações de ordenamento urbano voltadas à PSR",
+        "descricao": "especialmente nos trechos menos iluminados do Parque do Flamengo"
+      },
+      {
+        "categoria": "ações integradas de ordenamento urbano",
+        "descricao": "coordenação entre Força Municipal, PMERJ e gestão do Parque do Flamengo."
+      }
+    ],
+    "timing": ""
+  },
+  "_meta": {
+    "source": "Cópia de RI_015_2026_Praia_Botafogo_Marques_Abrantes.docx"
+  }
+}

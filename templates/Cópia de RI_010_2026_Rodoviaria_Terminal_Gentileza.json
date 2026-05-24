@@ -1,0 +1,116 @@
+{
+  "area_nome": "RODOVIÁRIA – TERMINAL GENTILEZA – ESTAÇÃO LEOPOLDINA",
+  "intro": "A presente análise territorial visa identificar fatores urbanos, dinâmica criminal e vulnerabilidades relacionadas à sensação de segurança da população, considerando áreas de grande circulação de pedestres e integração com o transporte público. Foram observados fatores associados à incidência de furtos e roubos contra transeuntes, especialmente subtração de aparelhos celulares, além de elementos urbanos que favorecem delitos oportunistas.",
+  "subareas": [
+    {
+      "nome": "RODOVIÁRIA NOVO RIO",
+      "descricao": "A área da Rodoviária Novo Rio apresenta intenso fluxo diário de passageiros oriundos de diferentes regiões do estado e integração direta com linhas municipais, intermunicipais e interestaduais. Durante análise territorial foram identificados pontos de retenção de fluxo próximos aos acessos principais, áreas de embarque e desembarque e passarelas de circulação. A infraestrutura degradada de calçadas e pistas de rolagem dificulta a vigilância móvel, favorecendo a ação de furtadores e estelionatários. Múltiplos acessos sem controle viabilizam dispersão imediata após a prática de delitos. O entorno concentra ambulantes sem licença e abordagens oportunistas a passageiros desatentos durante o desembarque de ônibus intermunicipais e interestaduais.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "acessos, embarque, desembarque e passarelas de circulação"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "corredores cobertos e passarelas com iluminação insuficiente"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "infraestrutura degradada e ambulantes irregulares nos acessos"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "rotas de fuga pelas vias adjacentes à Av. Francisco Bicalho"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "saídas diretas para Av. Francisco Bicalho, Rodrigues Alves e VLT."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "TERMINAL INTERMODAL GENTILEZA",
+      "descricao": "O Terminal Gentileza concentra elevado número de usuários do BRT e linhas alimentadoras, apresentando grande circulação de pedestres em horários de pico. A ausência de interligação física adequada entre os modais cria pontos cegos de vigilância e favorece furtos rápidos de aparelhos celulares em áreas de espera e plataformas. A convergência de usuários de múltiplas linhas em horários sobrepostos gera aglomerações que dificultam a identificação de suspeitos e favorecem abordagens oportunistas. Trechos externos ao terminal, próximos às paradas de linhas alimentadoras, apresentam baixa cobertura de câmeras e iluminação insuficiente no período noturno.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "plataformas de BRT e conexões intermodais nos horários 06h–09h e 17h–20h"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "pontos cegos entre modais e áreas de espera sem cobertura adequada"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "estruturas de separação entre modais comprometem visão contínua"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "acesso às plataformas externas facilita fuga imediata"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "saídas diretas para o Transbrasil e linhas municipais."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "ESTAÇÃO LEOPOLDINA",
+      "descricao": "O entorno da Estação Leopoldina apresenta áreas com baixa circulação em determinados períodos do dia, estruturas urbanas extensas e pontos de sombra sob elevados e viadutos. A configuração territorial favorece a dispersão rápida após delitos praticados contra transeuntes. A presença de população em situação de rua (PSR) nas imediações, especialmente sob os viadutos próximos à estação, contribui para a sensação de insegurança e para a criação de pontos de apoio utilizados por grupos envolvidos em delitos oportunistas. O acesso ferroviário concentra fluxo intenso nos horários de pico, com pedestres em deslocamento rápido e atenção reduzida.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "concentração de passageiros nos acessos ferroviários"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "pontos de sombra sob viadutos e elevados, com iluminação precária à noite"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "estruturas urbanas extensas criando pontos cegos"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "vias adjacentes com tráfego intenso favorecem fuga rápida"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "acesso direto à Zona Norte e à área portuária."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    }
+  ],
+  "conclusao": {
+    "sintese": "A área analisada apresenta fatores urbanos e territoriais que favorecem delitos oportunistas, especialmente furtos e roubos de aparelhos celulares contra pedestres. A infraestrutura degradada da Rodoviária Novo Rio, os pontos cegos do Terminal Gentileza e a presença de PSR sob os viadutos da Estação Leopoldina constituem vulnerabilidades interligadas ao longo do mesmo corredor de transporte. Observa-se necessidade de:\nOs delitos tendem a ocorrer principalmente nos horários de pico de embarque e desembarque, com concentração no final da tarde e início da noite, aproveitando momentos de maior distração das vítimas em áreas de espera e travessias.",
+    "recomendacoes": [
+      {
+        "categoria": "reforço do patrulhamento preventivo",
+        "descricao": "com foco nos horários de pico (06h–09h e 17h–20h) nos três pontos do corredor"
+      },
+      {
+        "categoria": "melhoria da iluminação pública",
+        "descricao": "especialmente nas passarelas da Rodoviária, nos pontos cegos do Terminal Gentileza e sob os viadutos da Leopoldina"
+      },
+      {
+        "categoria": "fiscalização de obstáculos urbanos",
+        "descricao": "regularização do comércio ambulante nos acessos à rodoviária e ao terminal"
+      },
+      {
+        "categoria": "ações de ordenamento urbano voltadas à PSR",
+        "descricao": "especialmente no entorno da Estação Leopoldina"
+      },
+      {
+        "categoria": "ações integradas de ordenamento urbano",
+        "descricao": "coordenação entre Força Municipal, PMERJ e gestores dos terminais."
+      }
+    ],
+    "timing": ""
+  },
+  "_meta": {
+    "source": "Cópia de RI_010_2026_Rodoviaria_Terminal_Gentileza.docx"
+  }
+}

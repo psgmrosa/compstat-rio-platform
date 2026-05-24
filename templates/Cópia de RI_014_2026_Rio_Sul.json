@@ -1,0 +1,116 @@
+{
+  "area_nome": "RIO SUL",
+  "intro": "A Avenida Lauro Müller apresenta elevado fluxo de pedestres e usuários do Shopping Rio Sul, hospitais e universidades. Foram identificadas áreas de sombra causadas pela arborização e retenção de fluxo em travessias. Foram observados fatores associados à incidência de furtos e roubos contra transeuntes, especialmente subtração de aparelhos celulares, além de elementos urbanos que favorecem delitos oportunistas.",
+  "subareas": [
+    {
+      "nome": "AVENIDA LAURO MÜLLER",
+      "descricao": "A Avenida Lauro Müller apresenta elevado fluxo de pedestres e usuários do Shopping Rio Sul, hospitais e universidades. Foram identificadas áreas de sombra causadas pela arborização densa e retenção de fluxo em travessias e pontos de ônibus. A convergência de usuários de diferentes perfis — frequentadores do shopping, profissionais de saúde e estudantes — cria ambiente propício para furtos oportunistas. Veículos estacionados irregularmente nas calçadas reduzem o espaço disponível para circulação e comprometem a visibilidade do patrulhamento.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "pontos de ônibus e acessos ao shopping com aglomeração constante"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "arborização densa criando zonas de sombra que comprometem a iluminação pública"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "veículos estacionados em calçadas reduzindo espaço e visibilidade"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "motociclistas com placas adulteradas identificados no corredor"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "acesso ao Túnel Alaor Prata e conexão com Botafogo."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "AVENIDA CARLOS PEIXOTO",
+      "descricao": "A Avenida Carlos Peixoto apresenta escadarias, obstáculos urbanos e baixa visibilidade em determinados pontos, favorecendo aproximações rápidas e rotas de evasão. A topografia acidentada com escadarias cria pontos cegos fora do alcance de câmeras e patrulhamento motorizado. Os recuos e rampas da via são utilizados como pontos de esconderijo por indivíduos envolvidos em delitos oportunistas, que aproveitam a limitação de visibilidade para abordar pedestres em deslocamento.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "fluxo constante de pedestres entre o shopping e as vias adjacentes"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "escadarias e recessos topográficos fora do alcance de câmeras"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "degraus e rampas impedindo patrulhamento motorizado"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "vias paralelas usadas como rotas de fuga verticais"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "escadarias oferecendo acesso a vias superiores."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    },
+    {
+      "nome": "VENCESLAU BRÁS / PASTEUR / GENERAL SEVERIANO",
+      "descricao": "O entroncamento entre essas vias concentra circulação universitária e hospitalar, principalmente no final da tarde, período com maior vulnerabilidade para furtos e roubos de celulares. A convergência de múltiplas vias cria ambiente de confusão e pontos cegos nas interseções. O perfil predominante de frequentadores — estudantes e profissionais de saúde em deslocamento rápido com equipamentos de valor — constitui alvo frequente de abordagens oportunistas, especialmente nos horários de troca de turno hospitalar.",
+      "fatores": [
+        {
+          "categoria": "retenção de fluxo em horários de pico",
+          "descricao": "pico de circulação universitária e hospitalar no final da tarde"
+        },
+        {
+          "categoria": "áreas com baixa visibilidade",
+          "descricao": "convergência de vias criando pontos cegos nas interseções"
+        },
+        {
+          "categoria": "obstáculos urbanos dificultando vigilância",
+          "descricao": "ônibus e veículos de serviço obstruindo visibilidade nas esquinas"
+        },
+        {
+          "categoria": "circulação intensa de motocicletas e bicicletas",
+          "descricao": "entroncamento complexo facilita fuga por múltiplas direções"
+        },
+        {
+          "categoria": "múltiplas rotas de dispersão após a prática criminosa",
+          "descricao": "três vias distintas permitindo dispersão imediata."
+        }
+      ],
+      "dinamica": "A dinâmica criminal observada indica predominância de indivíduos atuando a pé, motocicletas e bicicletas, aproveitando momentos de distração das vítimas em áreas de espera, travessias e acessos ao transporte público."
+    }
+  ],
+  "conclusao": {
+    "sintese": "A área analisada apresenta fatores urbanos e territoriais que favorecem delitos oportunistas, especialmente furtos e roubos de aparelhos celulares contra pedestres. A arborização densa da Av. Lauro Müller, os pontos cegos nas escadarias da Av. Carlos Peixoto e a convergência de fluxos universitários e hospitalares no entroncamento Venceslau Brás/Pasteur/General Severiano compõem um quadro de vulnerabilidade que atinge principalmente estudantes e profissionais de saúde. Observa-se necessidade de:\nOs delitos tendem a ocorrer principalmente no final da tarde e início da noite, coincidindo com os horários de saída das instituições de ensino e troca de turno hospitalar, aproveitando o deslocamento de pedestres com equipamentos de valor.",
+    "recomendacoes": [
+      {
+        "categoria": "reforço do patrulhamento preventivo",
+        "descricao": "com foco no final da tarde, horário de maior circulação de estudantes e profissionais de saúde"
+      },
+      {
+        "categoria": "melhoria da iluminação pública",
+        "descricao": "especialmente nos pontos cegos das escadarias da Av. Carlos Peixoto e nos trechos arborizados da Av. Lauro Müller"
+      },
+      {
+        "categoria": "poda de vegetação",
+        "descricao": "redução das zonas de sombra na Av. Lauro Müller que comprometem a eficácia da iluminação pública"
+      },
+      {
+        "categoria": "fiscalização de obstáculos urbanos",
+        "descricao": "regularização de veículos estacionados em calçadas e estruturas que obstruem visibilidade"
+      },
+      {
+        "categoria": "ações integradas de ordenamento urbano",
+        "descricao": "coordenação entre Força Municipal, PMERJ e instituições de ensino e saúde do entorno."
+      }
+    ],
+    "timing": ""
+  },
+  "_meta": {
+    "source": "Cópia de RI_014_2026_Rio_Sul.docx"
+  }
+}
