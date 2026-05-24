@@ -39,8 +39,10 @@ Esta plataforma faz isso automaticamente:
    - Horário de maior incidência coincide com a QMD da FM?
    - Dinâmica criminal coincide com o modelo de emprego da FM?
    - Os fatores estão sendo resolvidos pelos órgãos responsáveis?
-5. **Gera o Relatório Analítico (.docx)** no formato do anexo do briefing
-   CompStat, pronto para a reunião.
+5. **Gera o Relatório Analítico em PDF ou DOCX** no formato do anexo do
+   briefing CompStat — cover com mapa de segmentos quentes (heatmap KDE
+   das ocorrências + câmeras + trechos críticos numerados), Resumo
+   Executivo, indicadores e plano de ação pronto para a reunião.
 
 Resultado: o que hoje leva **horas por área × 22 áreas/semana** passa a
 levar **minutos**, com análise auditável, padronizada e ancorada nos dados.
@@ -86,9 +88,10 @@ levar **minutos**, com análise auditável, padronizada e ancorada nos dados.
                                                     │
                                                     ▼
                               ╔═══════════════════════════════════════════╗
-                              ║  template.render_relatorio()              ║
-                              ║  → .docx no formato do Anexo do Briefing  ║
-                              ║    (tabelas, heatmap, fatores, plano)     ║
+                              ║  pdf_renderer / template.render_relatorio ║
+                              ║  → PDF (reportlab) ou DOCX (python-docx)  ║
+                              ║    no formato do Anexo do Briefing        ║
+                              ║    (cover com mapa, tabelas, plano)       ║
                               ╚═══════════════════════════════════════════╝
 ```
 
@@ -179,14 +182,18 @@ python3 -m venv .venv
 cp .env.example .env
 # editar .env e preencher ANTHROPIC_API_KEY
 
-# 3. Gerar relatório para uma área
+# 3. Gerar relatório PDF (default) para uma área
 .venv/bin/python -m scripts.generate_relint \
     --area "Presidente Vargas - Campo de Santana - Central do Brasil - Cinelândia"
 
-# 4. Gerar para todas as 8 áreas
-.venv/bin/python -m scripts.generate_relint --all
+# Outros formatos
+.venv/bin/python -m scripts.generate_relint --area "Jardim de Alah" --format docx
+.venv/bin/python -m scripts.generate_relint --area "Jardim de Alah" --format ambos
 
-# 5. Subir a UI
+# 4. Gerar para todas as 8 áreas
+.venv/bin/python -m scripts.generate_relint --all --format pdf
+
+# 5. Subir a UI (homepage com agentes + detalhe por área)
 .venv/bin/streamlit run streamlit_app.py
 ```
 
@@ -195,6 +202,14 @@ Modo offline (sem Claude, só analytics — útil pra desenvolver):
 ```bash
 .venv/bin/python -m scripts.generate_relint --area "Jardim de Alah" --offline
 ```
+
+### Formatos de saída
+
+| Formato | Quando usar |
+|---|---|
+| **PDF** (default) | Apresentação na reunião CompStat; visual idêntico ao anexo do briefing — cover com mapa, cabeçalhos azuis, tabelas estilizadas. |
+| **DOCX** | Quando o analista precisa **editar** antes da reunião (ex.: ajustar texto do diagnóstico). |
+| **Ambos** | Gera os dois numa só execução. |
 
 ---
 
