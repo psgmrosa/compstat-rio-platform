@@ -223,10 +223,11 @@ Modo offline (sem Claude, só analytics — útil pra desenvolver):
 
 ## 🔗 Links
 
+- **Repositório:** https://github.com/psgmrosa/compstat-rio-platform
 - **Briefing técnico:** `Briefing_Hackathon_Desenvolvedores_CompStat-2.pdf`
-- **Repo de referência:** https://github.com/CompStat-Rio/claude_impact_lab_compstat_rio
-- **Demo (vídeo 60s):** _a preencher_
-- **Aplicação web (Streamlit):** _a preencher quando publicada_
+- **Repo de referência (dados):** https://github.com/CompStat-Rio/claude_impact_lab_compstat_rio
+- **Demo (vídeo 60s):** _a publicar antes das 16:15_
+- **Aplicação web (Streamlit):** rode local com `streamlit run streamlit_app.py`
 
 ---
 
